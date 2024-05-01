@@ -1,3 +1,4 @@
 FROM node:20
 EXPOSE 6060
-CMD ["node", "index.js"]
+WORKDIR /usr/src/app
+ENTRYPOINT ["node index.js"]
