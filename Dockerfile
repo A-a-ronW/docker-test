@@ -1,0 +1,2 @@
+FROM node:20
+EXPOSE 6060
